@@ -1,44 +1,36 @@
 # 🛣️ Miles to Kilometers Converter
 
-This is a simple Python GUI application built with **Tkinter** that allows users to convert distance in **miles** to **kilometers**. It is designed with a user-friendly interface for easy input and instant results.
+A simple Python Tkinter application that converts distance from **Miles to Kilometers** using a user-friendly GUI.
 
 ---
 
 ## 📸 Screenshots
 
 ### 🔹 Input Interface
-![Input Interface](miles to km.png)
+![Input Interface](miles%20to%20km.png)
 
-### 🔹 Result Example
-![Result Interface](miles to km 2.png)
+### 🔹 Result Interface
+![Result Interface](miles%20to%20km%202.png)
 
 ---
 
 ## 🧠 How It Works
 
-- The user enters a distance in **miles**.
-- On clicking the **Convert** button, the app calculates and displays the equivalent distance in **kilometers**.
+1. User enters miles in the input field.
+2. Clicks the **Convert** button.
+3. The app shows the distance in kilometers using the formula:
+> `1 mile = 1.60934 kilometers`
 
 ---
 
-## 🧮 Formula Used
+## 🛠️ Built With
 
-> **1 mile = 1.60934 kilometers**
-
----
-
-## 🛠️ Technologies Used
-
-- **Python 3**
-- **Tkinter (built-in GUI library)**
+- Python
+- Tkinter (standard GUI library in Python)
 
 ---
 
-## 🚀 How to Run
-
-1. Make sure Python is installed.
-2. Save the script as `converter.py`.
-3. Run the program:
+## 🚀 Run the App
 
 ```bash
-python main.py
+python converter.py
